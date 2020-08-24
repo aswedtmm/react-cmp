@@ -1,0 +1,11 @@
+.CommentContainer {
+    width: 300px;
+    background-color: #acb1ed;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.CommetTitile {
+    color: #ffffff;
+    text-transform: uppercase;
+}

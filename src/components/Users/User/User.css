@@ -1,0 +1,10 @@
+.UserContainer {
+    border: 1px solid #acb1ed;
+    width: 80%;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.UserContainer p {
+    font-weight: bold;
+}
