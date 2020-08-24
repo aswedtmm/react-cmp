@@ -30,13 +30,6 @@ const reducer = (state = initialState, action) => {
         }
         case actionTypes.DELETE_PERSON:
 
-            // First way: Clone state.persons using the spread operator.
-
-            // const persons = [...state.persons];
-            // persons.splice(action.index, 1);
-
-            // Second way: Use the filter method and pass the index as a second argument.
-
             const persons = state.persons.filter((res, index) => index !== action.index);
             return {
                 ...state,
