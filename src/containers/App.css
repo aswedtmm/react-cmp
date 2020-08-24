@@ -1,0 +1,17 @@
+.App {
+    text-align: center;
+}
+
+.NavBarList {
+    width: 678px;
+    margin: 0 auto;
+    height: 60px;
+    display: block;
+}
+
+.NavBarList li {
+    float: left;
+    width: 200px;
+    list-style: none;
+    font-size: 24px;
+}
