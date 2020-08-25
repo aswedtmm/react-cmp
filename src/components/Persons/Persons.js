@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 
 import Person from './Person/Person';
-
+// person component
 class Persons extends PureComponent {
   render() {
     return this.props.persons.map((person, index) => {
